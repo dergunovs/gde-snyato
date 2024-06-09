@@ -1,0 +1,36 @@
+{
+  "name": "gde-snyato",
+  "description": "Photo places search service monorepo",
+  "version": "0.0.1",
+  "author": "Alexandr Dergunov <dergunovs@mail.ru> (https://github.com/dergunovs)",
+  "license": "MIT",
+  "homepage": "https://gde-snyato.ru",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dergunovs/gde-snyato"
+  },
+  "scripts": {
+    "lint": "turbo run lint --no-daemon",
+    "ts": "turbo run ts --no-daemon",
+    "dev": "turbo run dev --no-daemon",
+    "build": "turbo run build --no-daemon"
+  },
+  "dependencies": {
+    "@changesets/cli": "2.27.5"
+  },
+  "devDependencies": {
+    "@turbo/gen": "2.0.3",
+    "prettier": "3.3.1",
+    "turbo": "2.0.3"
+  },
+  "packageManager": "npm@10.7.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "npm": ">=10.7.0",
+    "node": ">=22.1.0"
+  }
+}
