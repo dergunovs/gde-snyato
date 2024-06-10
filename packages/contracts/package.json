@@ -1,0 +1,23 @@
+{
+  "name": "gde-snyato-contracts",
+  "description": "Gde snyato contracts",
+  "version": "0.0.1",
+  "author": "Alexandr Dergunov <dergunovs@mail.ru> (https://github.com/dergunovs)",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dergunovs/gde-snyato",
+    "directory": "packages/contracts"
+  },
+  "engines": {
+    "npm": ">=10.7.0",
+    "node": ">=22.1.0"
+  }
+}
